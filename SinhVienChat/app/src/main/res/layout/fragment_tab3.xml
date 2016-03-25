@@ -1,0 +1,135 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#56b45f"
+    tools:context="TabFragment.Tab4Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/fb"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_height="210dp">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:id="@+id/avatar_rofile"
+            android:src="@drawable/ki"
+            android:layout_margin="10dp"
+            />
+    </LinearLayout>
+    <TableLayout
+        android:layout_marginTop="220dp"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="Author"
+            android:gravity="center"
+            android:layout_marginBottom="5dp"
+            />
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email: "
+                android:id="@+id/email_profilr"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="kienlv58@gmail.com"
+                android:focusable="false"
+                android:id="@+id/edt_email"
+                android:minHeight="40dp"
+                android:background="@null"
+                />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name: "
+                android:id="@+id/name_profile"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id="@+id/edt_nameprofile"
+                android:minHeight="40dp"
+                android:text="Lò Văn Kiên"
+                android:background="@null"
+                android:focusable="false"
+
+                />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date of birth: "
+                android:id="@+id/birthday_profile"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id="@+id/edt_birthday"
+                android:minHeight="40dp"
+                android:focusable="false"
+                android:text="02/10/1994"
+                android:background="@null"
+                />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone: "
+                android:id="@+id/adress_profile"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id="@+id/edt_adressrofile"
+                android:background="@null"
+                android:minHeight="40dp"
+                android:focusable="false"
+                android:text="01679526910"
+                />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Adress: "
+                android:id="@+id/school_profile"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id="@+id/edt_schoolprofile"
+                android:background="@null"
+                android:minHeight="40dp"
+                android:focusable="false"
+                android:text="Mường Vi-Bát Xát-Lào Cai"
+                />
+        </TableRow>
+    </TableLayout>
+
+
+</FrameLayout>
